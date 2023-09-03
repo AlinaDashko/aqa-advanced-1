@@ -1,7 +1,7 @@
-const length = 40;
-const width = 20;
-const sum = length * width;
-console.log(sum);
+let length = 25;
+let width = 15;
+let areaOfRectangle = length * width;
+console.log(areaOfRectangle);
 
 const radius = 10;
 const height = 30;
