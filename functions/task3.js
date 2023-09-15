@@ -1,6 +1,6 @@
 function countdown(num) {
-    if (num >= 0) {
-        console.log(num);
+    console.log(num);
+    if (num > 0) {
         countdown(num - 1);
     }
 }

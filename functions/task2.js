@@ -1,10 +1,10 @@
-function validate(age) {
+function calculateIsAdult(age) {
     if (age >= 18) {
-        console.log("True");
-        return;
+        return true;
+    } else {
+        return false;
     }
-    console.log("False");
 }
 
-validate(15);
-validate(25);
+console.log(calculateIsAdult(15));
+console.log(calculateIsAdult(25));
